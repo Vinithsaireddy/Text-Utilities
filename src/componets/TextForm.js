@@ -17,7 +17,7 @@ export default function TextForm({ heading, theme, showAlert }) {
 
   const handleLowerClick = () => {
     setText(text.toLowerCase());
-    showAlert('Text converted to LpperCase!', 'success');
+    showAlert('Text converted to LowerCase!', 'success');
   };
 
   const handleOnChange = (event) => {
@@ -49,7 +49,7 @@ export default function TextForm({ heading, theme, showAlert }) {
         </div>
         <button className="btn btn-primary" onClick={handleUpperClick}>Convert to Uppercase</button>
         <button className="btn btn-primary mx-3" onClick={handleLowerClick}>Convert to Lowercase</button>
-        <button className="btn btn-primary " onClick={handleClearClick}>Clear</button>
+        <button className="btn btn-primary" onClick={handleClearClick}>Clear</button>
       </div>
       <div className="container my-3">
         <h1>Your Text Summary</h1>
