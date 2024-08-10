@@ -47,9 +47,9 @@ export default function TextForm({ heading, theme, showAlert }) {
             rows="8"
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleUpperClick}>Convert to Uppercase</button>
-        <button className="btn btn-primary mx-3" onClick={handleLowerClick}>Convert to Lowercase</button>
-        <button className="btn btn-primary" onClick={handleClearClick}>Clear</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleUpperClick}>Convert to Uppercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleLowerClick}>Convert to Lowercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear</button>
       </div>
       <div className="container my-3">
         <h1>Your Text Summary</h1>
